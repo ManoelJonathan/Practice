@@ -36,6 +36,7 @@ public class Stack<T> {
 
     public T pop(){
         if(isEmpty()) return null;
+       
 
         T valor = this.topo.data;
         this.topo = this.topo.next;
