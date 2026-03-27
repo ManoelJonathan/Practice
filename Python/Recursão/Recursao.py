@@ -12,7 +12,7 @@ class Recursao:
        self.contLess(n-1)
 
     def somaArray(self, array):
-        if len(array) ==0:
+        if len(array) == 0:
            return 0
         
         return array[0] + self.somaArray(array[1:])
