@@ -13,7 +13,7 @@ public class Client {
         vehicleTelemetry.registerObserver(maintenance);
         vehicleTelemetry.registerObserver(dashBoard);
         
-        // Simulando uma atualização de telemetria
         vehicleTelemetry.setTelemetry(100, 80);
+
     }
 }
