@@ -1,4 +1,4 @@
-package Padroes_GoF.FlyWeitgh;
+package Padroes_GoF.FlyWeight;
 
 public class Client {
 
